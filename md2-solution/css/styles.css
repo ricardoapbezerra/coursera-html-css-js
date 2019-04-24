@@ -6,7 +6,7 @@
 }
 
 .row{
-  /*position: relative;*/
+  position: relative;
 }
 
 h1 {
@@ -84,6 +84,12 @@ p.title{
 }
 
 /* To mobile view */
-@media (max-widht: 767px) {
-
+@media (max-width: 767px) {
+ .col-sm-1{
+   border: 1px solid black;
+   margin-top: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+   float: left;
+ }
 }
